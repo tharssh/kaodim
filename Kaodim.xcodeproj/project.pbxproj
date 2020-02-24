@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8DBEAC2218E8EC39BECA91 /* Pods_Kaodim_KaodimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85A0F8391E542FA67807512 /* Pods_Kaodim_KaodimUITests.framework */; };
+		34C84C4024002946007D708D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84C3F24002946007D708D /* AppDelegate.swift */; };
+		34C84C4224002946007D708D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84C4124002946007D708D /* HomeVC.swift */; };
+		34C84C4524002946007D708D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C84C4324002946007D708D /* Main.storyboard */; };
+		34C84C4724002948007D708D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C84C4624002948007D708D /* Assets.xcassets */; };
+		34C84C4A24002948007D708D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C84C4824002948007D708D /* LaunchScreen.storyboard */; };
+		34C84C5524002948007D708D /* KaodimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84C5424002948007D708D /* KaodimTests.swift */; };
+		34C84C6024002948007D708D /* KaodimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84C5F24002948007D708D /* KaodimUITests.swift */; };
+		34C84C6E240037AF007D708D /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84C6D240037AF007D708D /* EventsVC.swift */; };
+		34C84C7224014659007D708D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84C7124014659007D708D /* Services.swift */; };
+		34C84CAE24024015007D708D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84CAD24024015007D708D /* Model.swift */; };
+		34C84CB62402EF7B007D708D /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C84CB52402EF7B007D708D /* MoreVC.swift */; };
+		921505DA05C2014EC251F1A8 /* Pods_Kaodim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A351EE522723417640A623 /* Pods_Kaodim.framework */; };
+		B19D403B3397A62BD2A6A092 /* Pods_KaodimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1BD46B66DCF22E3B21D0DE /* Pods_KaodimTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34C84C5124002948007D708D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C84C3424002946007D708D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C84C3B24002946007D708D;
+			remoteInfo = Kaodim;
+		};
+		34C84C5C24002948007D708D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C84C3424002946007D708D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C84C3B24002946007D708D;
+			remoteInfo = Kaodim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BF19EC28AB054D0FEA7460E /* Pods-Kaodim-KaodimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaodim-KaodimUITests.release.xcconfig"; path = "Target Support Files/Pods-Kaodim-KaodimUITests/Pods-Kaodim-KaodimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34C84C3C24002946007D708D /* Kaodim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaodim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C84C3F24002946007D708D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34C84C4124002946007D708D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		34C84C4424002946007D708D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34C84C4624002948007D708D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C84C4924002948007D708D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C84C4B24002948007D708D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C84C5024002948007D708D /* KaodimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaodimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C84C5424002948007D708D /* KaodimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaodimTests.swift; sourceTree = "<group>"; };
+		34C84C5624002948007D708D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C84C5B24002948007D708D /* KaodimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaodimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C84C5F24002948007D708D /* KaodimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaodimUITests.swift; sourceTree = "<group>"; };
+		34C84C6124002948007D708D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C84C6D240037AF007D708D /* EventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
+		34C84C7124014659007D708D /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		34C84CAD24024015007D708D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		34C84CB52402EF7B007D708D /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		8BE01D0E0C21F4335BF82AB5 /* Pods-KaodimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimTests.debug.xcconfig"; path = "Target Support Files/Pods-KaodimTests/Pods-KaodimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7F3782D7143A03BDE82E0E /* Pods-KaodimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimTests.release.xcconfig"; path = "Target Support Files/Pods-KaodimTests/Pods-KaodimTests.release.xcconfig"; sourceTree = "<group>"; };
+		B70EF7E0AD6C5444B0BD9DB9 /* Pods-Kaodim-KaodimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaodim-KaodimUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kaodim-KaodimUITests/Pods-Kaodim-KaodimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A351EE522723417640A623 /* Pods_Kaodim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kaodim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B910C548A72ADD71923BA8ED /* Pods-Kaodim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaodim.release.xcconfig"; path = "Target Support Files/Pods-Kaodim/Pods-Kaodim.release.xcconfig"; sourceTree = "<group>"; };
+		C85A0F8391E542FA67807512 /* Pods_Kaodim_KaodimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kaodim_KaodimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B2337472776C496DAA741D /* Pods-Kaodim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaodim.debug.xcconfig"; path = "Target Support Files/Pods-Kaodim/Pods-Kaodim.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1BD46B66DCF22E3B21D0DE /* Pods_KaodimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaodimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C84C3924002946007D708D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921505DA05C2014EC251F1A8 /* Pods_Kaodim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C84C4D24002948007D708D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19D403B3397A62BD2A6A092 /* Pods_KaodimTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C84C5824002948007D708D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8DBEAC2218E8EC39BECA91 /* Pods_Kaodim_KaodimUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C84C3324002946007D708D = {
+			isa = PBXGroup;
+			children = (
+				34C84C3E24002946007D708D /* Kaodim */,
+				34C84C5324002948007D708D /* KaodimTests */,
+				34C84C5E24002948007D708D /* KaodimUITests */,
+				34C84C3D24002946007D708D /* Products */,
+				A9AFFE625B5567F4B8BF77DD /* Pods */,
+				877B296D0BE24C90D8341FBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34C84C3D24002946007D708D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C84C3C24002946007D708D /* Kaodim.app */,
+				34C84C5024002948007D708D /* KaodimTests.xctest */,
+				34C84C5B24002948007D708D /* KaodimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C84C3E24002946007D708D /* Kaodim */ = {
+			isa = PBXGroup;
+			children = (
+				34C84C3F24002946007D708D /* AppDelegate.swift */,
+				34C84C7124014659007D708D /* Services.swift */,
+				34C84CAD24024015007D708D /* Model.swift */,
+				34C84C6F240037C1007D708D /* View Controller */,
+				34C84C4324002946007D708D /* Main.storyboard */,
+				34C84C4624002948007D708D /* Assets.xcassets */,
+				34C84C4824002948007D708D /* LaunchScreen.storyboard */,
+				34C84C4B24002948007D708D /* Info.plist */,
+			);
+			path = Kaodim;
+			sourceTree = "<group>";
+		};
+		34C84C5324002948007D708D /* KaodimTests */ = {
+			isa = PBXGroup;
+			children = (
+				34C84C5424002948007D708D /* KaodimTests.swift */,
+				34C84C5624002948007D708D /* Info.plist */,
+			);
+			path = KaodimTests;
+			sourceTree = "<group>";
+		};
+		34C84C5E24002948007D708D /* KaodimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34C84C5F24002948007D708D /* KaodimUITests.swift */,
+				34C84C6124002948007D708D /* Info.plist */,
+			);
+			path = KaodimUITests;
+			sourceTree = "<group>";
+		};
+		34C84C6F240037C1007D708D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34C84C4124002946007D708D /* HomeVC.swift */,
+				34C84C6D240037AF007D708D /* EventsVC.swift */,
+				34C84CB52402EF7B007D708D /* MoreVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		877B296D0BE24C90D8341FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A351EE522723417640A623 /* Pods_Kaodim.framework */,
+				C85A0F8391E542FA67807512 /* Pods_Kaodim_KaodimUITests.framework */,
+				FB1BD46B66DCF22E3B21D0DE /* Pods_KaodimTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9AFFE625B5567F4B8BF77DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B2337472776C496DAA741D /* Pods-Kaodim.debug.xcconfig */,
+				B910C548A72ADD71923BA8ED /* Pods-Kaodim.release.xcconfig */,
+				B70EF7E0AD6C5444B0BD9DB9 /* Pods-Kaodim-KaodimUITests.debug.xcconfig */,
+				2BF19EC28AB054D0FEA7460E /* Pods-Kaodim-KaodimUITests.release.xcconfig */,
+				8BE01D0E0C21F4335BF82AB5 /* Pods-KaodimTests.debug.xcconfig */,
+				9B7F3782D7143A03BDE82E0E /* Pods-KaodimTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C84C3B24002946007D708D /* Kaodim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C84C6424002948007D708D /* Build configuration list for PBXNativeTarget "Kaodim" */;
+			buildPhases = (
+				43AC9FF3DB46FE8930642E49 /* [CP] Check Pods Manifest.lock */,
+				34C84C3824002946007D708D /* Sources */,
+				34C84C3924002946007D708D /* Frameworks */,
+				34C84C3A24002946007D708D /* Resources */,
+				1B596F1309AEEF6ACE279B8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaodim;
+			productName = Kaodim;
+			productReference = 34C84C3C24002946007D708D /* Kaodim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C84C4F24002948007D708D /* KaodimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C84C6724002948007D708D /* Build configuration list for PBXNativeTarget "KaodimTests" */;
+			buildPhases = (
+				B2F0535753DC59DF9C3F9731 /* [CP] Check Pods Manifest.lock */,
+				34C84C4C24002948007D708D /* Sources */,
+				34C84C4D24002948007D708D /* Frameworks */,
+				34C84C4E24002948007D708D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C84C5224002948007D708D /* PBXTargetDependency */,
+			);
+			name = KaodimTests;
+			productName = KaodimTests;
+			productReference = 34C84C5024002948007D708D /* KaodimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34C84C5A24002948007D708D /* KaodimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C84C6A24002948007D708D /* Build configuration list for PBXNativeTarget "KaodimUITests" */;
+			buildPhases = (
+				A176A3F0B66D5D4C89409A0A /* [CP] Check Pods Manifest.lock */,
+				34C84C5724002948007D708D /* Sources */,
+				34C84C5824002948007D708D /* Frameworks */,
+				34C84C5924002948007D708D /* Resources */,
+				56846C6FBA65AFB8081537B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C84C5D24002948007D708D /* PBXTargetDependency */,
+			);
+			name = KaodimUITests;
+			productName = KaodimUITests;
+			productReference = 34C84C5B24002948007D708D /* KaodimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C84C3424002946007D708D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Tharsshinee;
+				TargetAttributes = {
+					34C84C3B24002946007D708D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					34C84C4F24002948007D708D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 34C84C3B24002946007D708D;
+					};
+					34C84C5A24002948007D708D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 34C84C3B24002946007D708D;
+					};
+				};
+			};
+			buildConfigurationList = 34C84C3724002946007D708D /* Build configuration list for PBXProject "Kaodim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C84C3324002946007D708D;
+			productRefGroup = 34C84C3D24002946007D708D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C84C3B24002946007D708D /* Kaodim */,
+				34C84C4F24002948007D708D /* KaodimTests */,
+				34C84C5A24002948007D708D /* KaodimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C84C3A24002946007D708D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C84C4A24002948007D708D /* LaunchScreen.storyboard in Resources */,
+				34C84C4724002948007D708D /* Assets.xcassets in Resources */,
+				34C84C4524002946007D708D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C84C4E24002948007D708D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C84C5924002948007D708D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B596F1309AEEF6ACE279B8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaodim/Pods-Kaodim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaodim/Pods-Kaodim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kaodim/Pods-Kaodim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43AC9FF3DB46FE8930642E49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kaodim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56846C6FBA65AFB8081537B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaodim-KaodimUITests/Pods-Kaodim-KaodimUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaodim-KaodimUITests/Pods-Kaodim-KaodimUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kaodim-KaodimUITests/Pods-Kaodim-KaodimUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A176A3F0B66D5D4C89409A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kaodim-KaodimUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F0535753DC59DF9C3F9731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaodimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C84C3824002946007D708D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C84C4224002946007D708D /* HomeVC.swift in Sources */,
+				34C84CB62402EF7B007D708D /* MoreVC.swift in Sources */,
+				34C84C7224014659007D708D /* Services.swift in Sources */,
+				34C84C4024002946007D708D /* AppDelegate.swift in Sources */,
+				34C84CAE24024015007D708D /* Model.swift in Sources */,
+				34C84C6E240037AF007D708D /* EventsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C84C4C24002948007D708D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C84C5524002948007D708D /* KaodimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C84C5724002948007D708D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C84C6024002948007D708D /* KaodimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C84C5224002948007D708D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C84C3B24002946007D708D /* Kaodim */;
+			targetProxy = 34C84C5124002948007D708D /* PBXContainerItemProxy */;
+		};
+		34C84C5D24002948007D708D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C84C3B24002946007D708D /* Kaodim */;
+			targetProxy = 34C84C5C24002948007D708D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34C84C4324002946007D708D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C84C4424002946007D708D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34C84C4824002948007D708D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C84C4924002948007D708D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C84C6224002948007D708D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34C84C6324002948007D708D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C84C6524002948007D708D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B2337472776C496DAA741D /* Pods-Kaodim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kaodim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharsshinee.Kaodim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C84C6624002948007D708D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B910C548A72ADD71923BA8ED /* Pods-Kaodim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kaodim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharsshinee.Kaodim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34C84C6824002948007D708D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE01D0E0C21F4335BF82AB5 /* Pods-KaodimTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharsshinee.KaodimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaodim.app/Kaodim";
+			};
+			name = Debug;
+		};
+		34C84C6924002948007D708D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7F3782D7143A03BDE82E0E /* Pods-KaodimTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharsshinee.KaodimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaodim.app/Kaodim";
+			};
+			name = Release;
+		};
+		34C84C6B24002948007D708D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70EF7E0AD6C5444B0BD9DB9 /* Pods-Kaodim-KaodimUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharsshinee.KaodimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaodim;
+			};
+			name = Debug;
+		};
+		34C84C6C24002948007D708D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF19EC28AB054D0FEA7460E /* Pods-Kaodim-KaodimUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharsshinee.KaodimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaodim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C84C3724002946007D708D /* Build configuration list for PBXProject "Kaodim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C84C6224002948007D708D /* Debug */,
+				34C84C6324002948007D708D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C84C6424002948007D708D /* Build configuration list for PBXNativeTarget "Kaodim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C84C6524002948007D708D /* Debug */,
+				34C84C6624002948007D708D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C84C6724002948007D708D /* Build configuration list for PBXNativeTarget "KaodimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C84C6824002948007D708D /* Debug */,
+				34C84C6924002948007D708D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C84C6A24002948007D708D /* Build configuration list for PBXNativeTarget "KaodimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C84C6B24002948007D708D /* Debug */,
+				34C84C6C24002948007D708D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C84C3424002946007D708D /* Project object */;
+}
